@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Malla Pedagogía en Inglés</title>
-
-  <!-- Vincula los estilos personalizados -->
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
-
-  <!-- Título visible de la malla -->
   <h1>Malla Pedagogía en Inglés</h1>
 
-  <!-- Aquí el script insertará todos los semestres -->
   <div id="malla-container"></div>
 
-  <!-- Lógica interactiva para marcar cursos -->
   <script src="script.js"></script>
 </body>
 </html>
