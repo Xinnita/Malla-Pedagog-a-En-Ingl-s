@@ -8,6 +8,7 @@
 <body>
   <h1>Malla Pedagogía en Inglés</h1>
 
+  <!-- Aquí se insertan automáticamente los 10 semestres -->
   <div id="malla-container"></div>
 
   <script src="script.js"></script>
