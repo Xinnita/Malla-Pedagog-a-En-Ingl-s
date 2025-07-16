@@ -1,5 +1,4 @@
-/* === Estilos Generales === */
-body {
+ body {
   font-family: Arial, sans-serif;
   background: #f0f8f8;
   padding: 20px;
@@ -12,7 +11,6 @@ h1 {
   margin-bottom: 40px;
 }
 
-/* === Contenedor por semestre === */
 .semester {
   margin-bottom: 30px;
 }
@@ -24,19 +22,17 @@ h1 {
   color: #34495e;
 }
 
-/* === Contenedor de ramos por semestre === */
 .courses {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-/* === Estilos generales del ramo === */
 .course {
   padding: 10px;
   border-radius: 10px;
   min-width: 180px;
-  background-color: #A0E7E5; /* ❌ Turquesa claro - No aprobado */
+  background-color: #A0E7E5;
   color: #333;
   cursor: pointer;
   transition: all 0.3s;
@@ -44,16 +40,14 @@ h1 {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* ✅ Aprobado */
 .course.approved {
-  background-color: #3D84A8; /* Azul mediterráneo */
+  background-color: #3D84A8;
   text-decoration: line-through;
   color: white;
 }
 
-/* 🔒 Bloqueado */
 .course.locked {
-  background-color: #4fafe0; /* Azul caribe (bloqueado) */
+  background-color: #4fafe0;
   cursor: not-allowed;
   opacity: 0.6;
 }
